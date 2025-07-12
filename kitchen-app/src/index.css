@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root{
+  --primary-color: #ffffff;
+  --secondary-color:#f4f4f4;
+  
+
+  --basic-font: "EB Garamond", serif;
+  --real-font:  "TikTok Sans", sans-serif;
+}
+body,h1,h2,h3,ul{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open sans', sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+@layer utilities{
+    /* Colors */
+ .primary-color{
+  color: var(--primary-color);
+ }
+  .secondary-color{
+  color: var(--primary-color);
+ }
+
+ /* Fonts*/
+  .basic-font{
+  font-family: var(--basic-font);
+ }
+  .real-font{
+  font-family: var(--real-font);
+ }
+
+}
+
