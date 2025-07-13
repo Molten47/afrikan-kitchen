@@ -14,10 +14,10 @@ const Hero = () => {
         </div>
       </div>
         {/* Upper part with content */}
-        <div className='max-w-4xl text-center space-y-8 real-font'>
+        <div className='max-w-6xl text-center space-y-8 real-font'>
           {/* Hero Text */}
-          <div className='space-y-6'>
-            <h1 className='text-5xl md:text-6xl font-bold text-[#1e1d19] leading-tight'>
+          <div className='space-y-6 '>
+            <h1 className='text-5xl  md:text-6xl font-bold text-[#1e1d19] leading-tight'>
               The Original Home of 
               <span className='block'>West-African Cuisine</span>
               <span className='block'>in South London</span>
