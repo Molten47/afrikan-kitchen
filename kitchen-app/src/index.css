@@ -3,7 +3,7 @@
 :root{
   --primary-color: #ffffff;
   --secondary-color:#f4f4f4;
-  
+  --cta-btn: #7b896f;
 
   --basic-font: "EB Garamond", serif;
   --real-font:  "TikTok Sans", sans-serif;
@@ -31,6 +31,7 @@ body{
   color: var(--primary-color);
  }
 
+
  /* Fonts*/
   .basic-font{
   font-family: var(--basic-font);
@@ -38,6 +39,8 @@ body{
   .real-font{
   font-family: var(--real-font);
  }
-
+ .bg-cta{
+  background-color: var(--cta-btn);
+ }
 }
 
