@@ -4,6 +4,9 @@ import Hero from './components/hero';
 import About from './components/About';
 import Featured from './components/Featured';
 import Outlet from './components/Outlet';
+import Contact from './components/Booking';
+import Footer from './components/Footer';
+
 
 function App() {
 
@@ -14,6 +17,8 @@ function App() {
   <About/>
   <Featured/>
   <Outlet/>
+  <Contact/>
+  <Footer/>
     </>
   )
 }
