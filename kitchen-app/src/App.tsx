@@ -1,25 +1,20 @@
 import { useState } from 'react'
-import Navbar from './components/navbar';
-import Hero from './components/hero';
-import About from './components/About';
-import Featured from './components/Featured';
-import Outlet from './components/Outlet';
-import Contact from './components/Booking';
-import Footer from './components/Footer';
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './components/Home'
+import Login from './users/login'
+import SignUp from './users/signup'
+import Navbar from './components/navbar'
 
 function App() {
-
   return (
-    <>
-  <Navbar />
-  <Hero/>
-  <About/>
-  <Featured/>
-  <Outlet/>
-  <Contact/>
-  <Footer/>
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Section 1: Brand Information */}
           <div className="col-span-1 md:col-span-1 space-y-4">
             <h3 className="text-2xl font-bold text-white mb-2">
-              West African Flavors
+              AfrikaDine
             </h3>
             <p className="text-sm leading-relaxed">
               Bringing the authentic taste of West Africa to South London,
